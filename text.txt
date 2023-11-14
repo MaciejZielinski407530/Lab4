@@ -1,0 +1,21 @@
+file87.py
+- wiersz 20 spacje
+- wiersz 23 spacje + za długi komentarz (rozdzielony na 2 wiersze)
+- wiersz 38 dodana pusty wiersz na końcu
+- wiersz 5 nazwa klasy: nazwa zaczyna się od dużej litery i nie zawiera "_" + nazwa poprawiona w kolejnych użyciach w kodzie
+- wiersz 6,7,8 argument domyślny metody jest modyfikowalny
+- usunięcie globalnych zmiennych b i c
+- zamiana nazwy funkcji enumerate na my_enumerate, aby nie zasłaniać funkcji wbudowanej
+-
+
+file157.py
+- dodany pusty wiersz na końcu
+- poprawa klasy Picontainer() w pliku
+- przeniesienie from file87 import * na samą górę
+- odstępy między import a funkcją i miedzy funkcją a try
+- poprawienie bloku except, aby wypisał bardziej szczegółowe informacje o błędzie
+- zapis do pliku wpisanie przedostatniego elementu a nie ostatniego (ostatni to 'finished')
+- użycie zamiast open i close w osobnych linijkach użycie 'with' -> gwarantuje zamknięcie pliku po jego użyciu
+- usunięcie funkcji menumerate
+-
+-
