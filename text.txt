@@ -12,10 +12,10 @@ file157.py
 - dodany pusty wiersz na końcu
 - poprawa klasy Picontainer() w pliku
 - przeniesienie from file87 import * na samą górę
-- odstępy między import a funkcją i miedzy funkcją a try
+- odstępy między import a try
 - poprawienie bloku except, aby wypisał bardziej szczegółowe informacje o błędzie
 - zapis do pliku wpisanie przedostatniego elementu a nie ostatniego (ostatni to 'finished')
 - użycie zamiast open i close w osobnych linijkach użycie 'with' -> gwarantuje zamknięcie pliku po jego użyciu
-- usunięcie funkcji menumerate
+- usunięcie funkcji enumerate
 -
 -

@@ -13,7 +13,7 @@ try:
     my_pi.mth(pi_gen.__next__())
     my_pi.mth(pi_gen.__next__())
 except Exception as e:
-    print('Error', e)
+    print('Error:', e)
 pIgEn3 = foo(194)
 for the_variable_that_contains_next_approximations_of_pi_from_generator in range(23):
     my_pi_2.mth(next(pIgEn3))
